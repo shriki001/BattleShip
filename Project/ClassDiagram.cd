@@ -1,0 +1,319 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AiRival" Collapsed="true">
+    <Position X="8.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAABAAAAAAAAAAIAAAAAAACIAAAAAAAAAAACAAA=</HashCode>
+      <FileName>AIRIival.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Board" Collapsed="true">
+    <Position X="22.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAAAAAAAAAAAAAAAAAAAAAABAQAACAAAAA=</HashCode>
+      <FileName>Board.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChatBox" Collapsed="true">
+    <Position X="21" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIEAIACAARAAAEMAAAAAgAAAEACIgABIAACEIgA=</HashCode>
+      <FileName>ChatBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Chat" Collapsed="true">
+    <Position X="19.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAQAAAgAAAAQAAAAAEAAgAAAAAEAAAAAA=</HashCode>
+      <FileName>Chat.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Game" Collapsed="true">
+    <Position X="19.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CBIQAiABAEBAAIAAAAUNARAgEEiOgABAQCCMAAAcBAA=</HashCode>
+      <FileName>Game.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Language" Collapsed="true">
+    <Position X="21" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACEAAAAAAAgAAAAAAAAQAAAEAAAAAAAAAAAA=</HashCode>
+      <FileName>Language.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Map" Collapsed="true">
+    <Position X="22.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAaEJAMQRgFAAIQAAABABEAQAACIACIACIAAAI=</HashCode>
+      <FileName>Map.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ShipFactory" Collapsed="true">
+    <Position X="24.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAABAAAAAAAA=</HashCode>
+      <FileName>ShipFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MultyPlayer" Collapsed="true">
+    <Position X="10.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEYAACAAAAAAQAAAgAIAAQAAFACAAAAAAAQAEAICAEA=</HashCode>
+      <FileName>MultyPlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SinglePlayer" Collapsed="true">
+    <Position X="13" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAiAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>SinglePlayer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="SrcManager" Collapsed="true">
+    <Position X="21" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AADMJGoACEoAC4AEEAAACAAIAgREBEBsEQSgAAABQUA=</HashCode>
+      <FileName>SrcManager.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextBox" Collapsed="true">
+    <Position X="22.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAACIAAAAAAAIAAABAEAAAgAAAAACAAAAAAAA=</HashCode>
+      <FileName>TextBox.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Player" Collapsed="true">
+    <Position X="10.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EEIAAAAAUAAEAgAAAAKQIAAFAFGBQAJAAAikAQKAABI=</HashCode>
+      <FileName>Player.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="AnimatedSprite" Collapsed="true">
+    <Position X="19.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ADAAAxAChAAIAAEAAAJAAAAAAAKgAAAUIAAkAAQNIAA=</HashCode>
+      <FileName>E_includes\AnimatedSprite.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Animation" Collapsed="true">
+    <Position X="21" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAEAQAAAJAAAAAggAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>E_includes\Animation.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Button" Collapsed="true">
+    <Position X="24.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAAAAAIAAAAAAAAIACAByAQAIAAAkABGAghMgAAQ=</HashCode>
+      <FileName>ME_Button.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Editor" Collapsed="true">
+    <Position X="9.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAABQCAUAAAMAqAAQCAAAAABBgAAAAAYAACAACIEAAA=</HashCode>
+      <FileName>ME_Editor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Editor2D" Collapsed="true">
+    <Position X="8.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ME_Editor2D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Editor3D" Collapsed="true">
+    <Position X="10.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ME_Editor3D.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditorControler" Collapsed="true">
+    <Position X="22.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAgQCABAQAgAAACQAAAgAAABAAAAAAACgIAAEAAA=</HashCode>
+      <FileName>ME_EditorControler.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EditorMenu" Collapsed="true">
+    <Position X="24.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAMAAAAAAAAAAAAAAICAAAAAAEAAEAAAACABIIAACA=</HashCode>
+      <FileName>ME_Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip2" Collapsed="true">
+    <Position X="5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAABAAAABAAAAAAgA=</HashCode>
+      <FileName>BattleShip2.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip6" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAIAAAAAAAAAABBAAAAAAAAAAgA=</HashCode>
+      <FileName>BattleShip6.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Ship" Collapsed="true">
+    <Position X="2.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAEAAAAAAAAAAIAAAAQCQCAAAAAAACAAAgAAgA=</HashCode>
+      <FileName>Ship.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BattleShip4" Collapsed="true">
+    <Position X="2.75" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAAgA=</HashCode>
+      <FileName>BattleShip4.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChooseGameTypeMenu" Collapsed="true">
+    <Position X="10" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAACAiAAIBAAIAAAAAAAAAAAEAAAAAAAAEgAA=</HashCode>
+      <FileName>ChooseGameTypeMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ChooseReadyMenu" Collapsed="true">
+    <Position X="12.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQISAiBAIBAIIAAAAAAAAIAAEAAAAAAAAEgAA=</HashCode>
+      <FileName>ChooseReadyMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="EndGameMenu" Collapsed="true">
+    <Position X="14.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAACAiAAIBAAIAAAAAAAAAAAEgAAAAAAAEgAA=</HashCode>
+      <FileName>EndGameMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HelpMenu" Collapsed="true">
+    <Position X="16.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAiACIBAAIAAAAAAAAAAAEAAAAAAAAEgAA=</HashCode>
+      <FileName>HelpMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ImageMenuButton" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQACAAACAAAAAAAAAAAiAAAAAAFAAAAAAAAYAAA=</HashCode>
+      <FileName>ImageMenuButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MainMenu" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAiAAIBAAIAAAAQAAAAAAEAAAAAAAAEgAA=</HashCode>
+      <FileName>MainMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MapMenu" Collapsed="true">
+    <Position X="7.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAiAAIBAIIAAAAAAAAAAAEAAAgAAAAEgAA=</HashCode>
+      <FileName>MapMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAEAQAAACBiAQAhAIIAAAAAAAAIAAEAAACAAAgEgAE=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuButton" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAKAAACAAAAAAAAAAACAAAAAAVAAACAAAAQAAA=</HashCode>
+      <FileName>MenuButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OptionButton" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAGACACACAgQAEAAAAAAAAgAIFoAAAAAAAUBAA=</HashCode>
+      <FileName>OptionButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="TextMenuButton" Collapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAACIAACAgAAIAAAAAAAAAAAAAFAAAAEAAAQAAA=</HashCode>
+      <FileName>TextMenuButton.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OptionsMenu" Collapsed="true">
+    <Position X="1" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAMAAAAEACAiAAIBAAIAAAAgAAAEAAEAAAAEAAAEgAA=</HashCode>
+      <FileName>OptionsMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PauseMenu" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAiQAIBAAIAAAAAAAAAAAEAAAAAAAAEgAA=</HashCode>
+      <FileName>PauseMenu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="sf::Sprite3d" Collapsed="true">
+    <Position X="19.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BBQAEIGTjNjZEgglQpb4JIiKTBQgEumiAAZAiAIIAiA=</HashCode>
+      <FileName>E_includes\Sprite3d.hpp</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Play_t" Collapsed="true">
+    <Position X="21" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAgAAAAAAA=</HashCode>
+      <FileName>settings.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Language_t" Collapsed="true">
+    <Position X="22.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAIAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>settings.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Difficulity_t" Collapsed="true">
+    <Position X="21" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAgAAAAAAAAAAAAAAAgAAAAAAAAAAAA=</HashCode>
+      <FileName>settings.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Mod_t" Collapsed="true">
+    <Position X="19.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>settings.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ActionType_t" Collapsed="true">
+    <Position X="19.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAAAAAAAAAQAAAAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>settings.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Menus_t" Collapsed="true">
+    <Position X="24.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAgAAAAAAAAIACEAEAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>settings.h</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

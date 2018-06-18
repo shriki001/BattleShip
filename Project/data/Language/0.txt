@@ -1,0 +1,44 @@
+6 Size Ship
+4 Size Ship
+2 Size Ship
+Remove
+Clear
+Yes
+No
+Are you Sure?
+Map Saved!
+x
+Continue
+New Game
+Options
+Help
+Exit
+Local Play
+Online Play
+back
+Back to Game
+Return to main Menu
+create your own
+choose pre-defined
+1234/*@*/
+R I G H T/*@*/
+L E F T/*@*/
+continue
+Change Your Name
+Language
+English
+Hebrew
+Difficulity
+Easy
+Medium
+Hard
+View
+2D
+3D
+Congratulations!&You Win!!!
+        Sorry...&You Lose!
+Welcome Player
+   Enter your name
+Sound
+ON
+OFF

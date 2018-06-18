@@ -1,0 +1,303 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="3d">
+      <UniqueIdentifier>{48346b35-6d50-4465-959e-2ca8b8c6c235}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapEditor">
+      <UniqueIdentifier>{b1e7c140-5df2-4375-b6bb-27612576a9e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ships">
+      <UniqueIdentifier>{6dee597c-b112-434e-8862-46f4528a40f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapEditor\Header Files">
+      <UniqueIdentifier>{be0c2bc6-de91-42ef-8415-4329dd97b639}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MapEditor\Source Files">
+      <UniqueIdentifier>{eda8465e-66c2-4b0e-a943-d3b5e595ac58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ships\Header Files">
+      <UniqueIdentifier>{b0f58aa6-7952-4b2f-a96f-f5132ee06d6b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ships\Source Files">
+      <UniqueIdentifier>{725d7121-7b75-4cfc-afd1-e532554f7fe5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menus">
+      <UniqueIdentifier>{9faece7f-eee1-4d15-99d4-9314a81f0657}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menus\Header Files">
+      <UniqueIdentifier>{ad69f8b6-df1b-4456-802e-17daf5000d9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Menus\Source Files">
+      <UniqueIdentifier>{68db58c4-7b71-4219-b3d0-3bb0361a8876}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E_includes\Sprite3d.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="TextBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SrcManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E_includes\AnimatedSprite.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="E_includes\Animation.cpp">
+      <Filter>3d</Filter>
+    </ClCompile>
+    <ClCompile Include="Language.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ME_Button.cpp">
+      <Filter>MapEditor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ME_Editor.cpp">
+      <Filter>MapEditor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ME_Editor2D.cpp">
+      <Filter>MapEditor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ME_Editor3D.cpp">
+      <Filter>MapEditor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ME_EditorControler.cpp">
+      <Filter>MapEditor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ME_Menu.cpp">
+      <Filter>MapEditor\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShip2.cpp">
+      <Filter>Ships\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShip4.cpp">
+      <Filter>Ships\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BattleShip6.cpp">
+      <Filter>Ships\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship.cpp">
+      <Filter>Ships\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AIRIival.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SinglePlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MultyPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatBox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Chat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HelpMenu.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageMenuButton.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MapMenu.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuButton.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionButton.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="OptionsMenu.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PauseMenu.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TextMenuButton.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseGameTypeMenu.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ChooseReadyMenu.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ShipFactory.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EndGameMenu.cpp">
+      <Filter>Menus\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AudioManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="settings.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E_includes\Sprite3d.hpp">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="TextBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SrcManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E_includes\AnimatedSprite.hpp">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="E_includes\Animation.hpp">
+      <Filter>3d</Filter>
+    </ClInclude>
+    <ClInclude Include="Language.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ME_Button.h">
+      <Filter>MapEditor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ME_Editor.h">
+      <Filter>MapEditor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ME_Editor2D.h">
+      <Filter>MapEditor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ME_Editor3D.h">
+      <Filter>MapEditor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ME_EditorControler.h">
+      <Filter>MapEditor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ME_Menu.h">
+      <Filter>MapEditor\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShip2.h">
+      <Filter>Ships\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship.h">
+      <Filter>Ships\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShip4.h">
+      <Filter>Ships\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="BattleShip6.h">
+      <Filter>Ships\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AIRIival.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SinglePlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MultyPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Chat.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseGameTypeMenu.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ChooseReadyMenu.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HelpMenu.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageMenuButton.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuButton.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionButton.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="OptionsMenu.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PauseMenu.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="TextMenuButton.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MapMenu.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipFactory.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utilities.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EndGameMenu.h">
+      <Filter>Menus\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>

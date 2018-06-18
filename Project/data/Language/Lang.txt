@@ -1,0 +1,27 @@
+New Game				;#start menu
+Options -> toggle sound? and?
+Help -> 2 images that we create
+Exit
+Build Map__				;# inside New Game
+Use Local Maps
+Use Random Map
+Play Muliplayer__			;# inside after map create
+Play Against Computer
+Toggle Sound__				;# inside options
+On^
+Off^
+Language
+English^
+Hebrew^
+
+
+6 Size Ship__				;# map editor
+4 Size Ship
+2 Size Ship
+Remove
+Save
+Clear Map
+Map Saved!
+Are You Sure?				-> in hebrew need to write original
+Yes					;# Exit window
+No
