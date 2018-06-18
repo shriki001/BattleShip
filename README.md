@@ -1,3 +1,8 @@
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=A-xpt22AKas" target="_blank"><img src="http://img.youtube.com/vi/A-xpt22AKas/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="820" height="480" border="10" /></a>
+
+===============================================================================
+
 Object Oriented Programming ; 2018 b
 
 Project : Michael Shriki , Kfir Matityahu
