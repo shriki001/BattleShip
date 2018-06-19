@@ -85,14 +85,14 @@ void Map::remove(const sf::Vector2i &_place, const bool dir, const int size)
 	try
 	{
 		if (getSign(_place.x, _place.y) == '<')
-			for (int i = 0; i < size && (_place.x + i) > 0; i++)
+			for (int i = 0; i < size && (_place.x + i) >= 0; i++)
 			{
 				setSign(_place.x + i, _place.y, '-');
 				setSize(_place.x + i, _place.y, 0);
 			}
 
 		else if (getSign(_place.x, _place.y) == '^')
-			for (int i = 0; i < size && (_place.y + i) > 0; i++)
+			for (int i = 0; i < size && (_place.y + i) >= 0; i++)
 			{
 				setSign(_place.x, _place.y + i, '-');
 				setSize(_place.x, _place.y + i, 0);
@@ -103,17 +103,17 @@ void Map::remove(const sf::Vector2i &_place, const bool dir, const int size)
 			int i;
 			if (getSign(_place.x - 1, _place.y) == '-')
 			{
-				for (i = 1; i < size && (_place.y - i) > 0; i++)
-					if (getSign(_place.x - i, _place.y) == '^')
+				for (i = 1; i < size && (_place.y - i) >= 0; i++)
+					if (getSign(_place.x, _place.y - i) == '^')
 						break;
-				return remove({ _place.x - i, _place.y }, dir, size);
+				return remove({ _place.x, _place.y - i }, dir, size);
 			}
 			else
 			{
-				for (i = 1; i < size && (_place.x - i) > 0; i++)
-					if (getSign(_place.x, _place.y - i) == '<')
+				for (i = 1; i < size && (_place.x - i) >= 0; i++)
+					if (getSign(_place.x - i, _place.y) == '<')
 						break;
-				return remove({ _place.x , _place.y - i }, dir, size);
+				return remove({ _place.x - i, _place.y }, dir, size);
 			}
 		}
 	}
@@ -153,11 +153,19 @@ bool Map::canPut(const sf::Vector2i &_place, const bool dir, const int size) con
 			return false;
 
 		if (!dir)
+		{
+			if (_place.x + size > 10)
+				return false;
 			for (int i = 1; i < size; i++)
 				check += getSign(_place.x + i, _place.y);
+		}
 		else
+		{
+			if (_place.y + size > 10)
+				return false;
 			for (int i = 1; i < size; i++)
 				check += getSign(_place.x, _place.y + i);
+		}
 	}
 	catch (std::exception& e)
 	{
@@ -216,7 +224,7 @@ char Map::getSign(int x, int y) const
 	}
 	catch (std::exception&)
 	{
-		return 'A';
+		return '-';
 	}
 }
 
